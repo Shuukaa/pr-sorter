@@ -1,5 +1,15 @@
 {
-  "sorters": [],
+  "sorters": [
+    {
+      "slug": "mamoru-miyano",
+      "title": "Mamoru Miyano Sorter",
+      "description": "Party rank sorter for your custom list of songs.",
+      "tags": [
+        "Artist"
+      ],
+      "deadline": "2026-09-05T04:00:00.000Z"
+    }
+  ],
   "externalSources": [
     {
       "title": "Minigamer42",
