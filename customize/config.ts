@@ -16,6 +16,6 @@ export const config = {
   //   This setting will only work if `scoreColumnHeader` is not set, allowing users to specify their own score column header in the sheet.
   //   If `scoreColumnHeader` is set, that value will be used as the score column header and users won't be able to change it.
   //   allowCustomScoreColumn: true,
-     scoreColumnHeader: "Score (optional)",
+     scoreColumnHeader: "Score",
    },
 } satisfies AppConfig;
