@@ -1,0 +1,95 @@
+import type { SortPickEntry } from '../../sorter';
+import { songEntryAnime, songEntryId, songEntryName, type ResolvedSongEntry, type SongCatalog } from '../../songs';
+import type { SongScoresById } from '../types';
+
+type HistoryModalProps = {
+    open: boolean;
+    picks: SortPickEntry[];
+    catalog: SongCatalog;
+    scoresBySongId: SongScoresById;
+    onClose(): void;
+};
+
+export function HistoryModal({open, picks, catalog, scoresBySongId, onClose}: HistoryModalProps) {
+    if (!open) {
+        return null;
+    }
+
+    return (
+        <>
+            <div className="modal-overlay" onClick={onClose}/>
+            <div className="modal history-modal">
+                <h2>Pick History</h2>
+                {picks.length === 0 ? (
+                    <p className="history-empty">No picks yet.</p>
+                ) : (
+                    <div className="history-list">
+                        {picks.map((pick, index) => {
+                            const leftSong = catalog.byId.get(pick.leftId);
+                            const rightSong = catalog.byId.get(pick.rightId);
+
+                            return (
+                                <div className="history-entry" key={`${pick.battleNo}-${index}`}>
+                                    <div className="history-entry__meta">
+                                        <span>#{index + 1}</span>
+                                        <span className={`history-entry__kind history-entry__kind--${pick.kind}`}>
+                      {pick.kind === 'automatic' ? 'Automatic' : 'Manual'}
+                    </span>
+                                        <span>Battle {pick.battleNo}</span>
+                                    </div>
+                                    <div className="history-entry__matchup">
+                                        <HistorySongSide
+                                            song={leftSong}
+                                            side="Left"
+                                            picked={pick.choice === 'left'}
+                                            score={formatScore(leftSong, scoresBySongId)}
+                                        />
+                                        <HistorySongSide
+                                            song={rightSong}
+                                            side="Right"
+                                            picked={pick.choice === 'right'}
+                                            score={formatScore(rightSong, scoresBySongId)}
+                                        />
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                )}
+                <button className="close-button" type="button" onClick={onClose}>
+                    Close
+                </button>
+            </div>
+        </>
+    );
+}
+
+type HistorySongSideProps = {
+    song: ResolvedSongEntry | undefined;
+    side: 'Left' | 'Right';
+    picked: boolean;
+    score: string;
+};
+
+function HistorySongSide({song, side, picked, score}: HistorySongSideProps) {
+    return (
+        <div className={`history-song${picked ? ' history-song--picked' : ''}`}>
+            <div className="history-song__header">
+                <span>{side}</span>
+                {picked ? <span className="history-song__picked">Picked</span> : null}
+            </div>
+            <div className="history-song__anime">{song ? songEntryAnime(song) : 'Unknown song'}</div>
+            <div className="history-song__name">{song ? songEntryName(song) : 'Unknown song'}</div>
+            <div className="history-song__score">Score: {score}</div>
+        </div>
+    );
+}
+
+function formatScore(song: ResolvedSongEntry | undefined, scoresBySongId: SongScoresById): string {
+    if (!song) {
+        return 'unknown';
+    }
+
+    const score = scoresBySongId[songEntryId(song)];
+    return score?.trim() ? score : 'unscored';
+}
