@@ -17,5 +17,5 @@ export const config = {
   //   If `scoreColumnHeader` is set, that value will be used as the score column header and users won't be able to change it.
   //   allowCustomScoreColumn: true,
      scoreColumnHeader: "Score (optional)",
-  // },
+   },
 } satisfies AppConfig;
