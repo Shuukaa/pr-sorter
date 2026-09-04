@@ -11,7 +11,7 @@
     },
     {
       "slug": "male-idol-2",
-      "title": "Male Idol #2 Sorter",
+      "title": "Male Idol #2",
       "description": "Party rank sorter for male idol non-anime songs #2.",
       "tags": [
         "Nominations"
@@ -20,7 +20,7 @@
     },
     {
       "slug": "mamoru-miyano",
-      "title": "Mamoru Miyano Sorter",
+      "title": "Mamoru Miyano",
       "description": "Party rank sorter for Mamoru Miyano anime songs.",
       "tags": [
         "Artist"
@@ -29,7 +29,7 @@
     },
     {
       "slug": "motoki-ohmori-mrs-green-apple",
-      "title": "Motoki Ohmori (Mrs. GREEN APPLE) Sorter",
+      "title": "Motoki Ohmori (Mrs. GREEN APPLE)",
       "description": "Party rank sorter for Motoki Ohmori (Mrs. GREEN APPLE) anime songs.",
       "tags": [
         "Artist"
@@ -38,7 +38,7 @@
     },
     {
       "slug": "nano",
-      "title": "nano Sorter",
+      "title": "nano",
       "description": "Party rank sorter for nano anime and game songs.",
       "tags": [
         "Artist"
