@@ -2,7 +2,7 @@ import type { AppConfig } from "../src/app/types";
 
 export const config = {
   localStoragePrefix: "male-idol-2-sorter",
-  title: "Male Idol #2 Sorter",
+  title: "Male Idol #2",
   description: "Party rank sorter for male idol non-anime songs #2.",
   // Tags group this sorter under one or more headers on the collection homepage.
   tags: ["Nominations"],
