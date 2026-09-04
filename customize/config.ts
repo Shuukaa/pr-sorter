@@ -3,7 +3,7 @@ import type { AppConfig } from "../src/app/types";
 export const config = {
   localStoragePrefix: "mamoru-miyano-sorter",
   title: "Mamoru Miyano Sorter",
-  description: "Party rank sorter for your custom list of songs.",
+  description: "Party rank sorter for Mamoru Miyano anime songs.",
   // Tags group this sorter under one or more headers on the collection homepage.
   tags: ["Artist"],
   // Optional voting deadline (ISO 8601). Written into the generated sorter-index.json.
