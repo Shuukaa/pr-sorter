@@ -2,7 +2,7 @@ import type { AppConfig } from "../src/app/types";
 
 export const config = {
   localStoragePrefix: "jrpg-sorter",
-  title: "JRPG Sorter",
+  title: "JRPG",
   description: "Party rank sorter for JRPG songs.",
   // Tags group this sorter under one or more headers on the collection homepage.
   tags: ["Nominations"],
