@@ -2,7 +2,7 @@ import type { AppConfig } from "../src/app/types";
 
 export const config = {
   localStoragePrefix: "motoki-ohmori-mrs-green-apple-sorter",
-  title: "Motoki Ohmori (Mrs. GREEN APPLE) Sorter",
+  title: "Motoki Ohmori (Mrs. GREEN APPLE)",
   description: "Party rank sorter for Motoki Ohmori (Mrs. GREEN APPLE) anime songs.",
   // Tags group this sorter under one or more headers on the collection homepage.
   tags: ["Artist"],
