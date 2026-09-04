@@ -1,6 +1,15 @@
 {
   "sorters": [
     {
+      "slug": "male-idol-2",
+      "title": "Male Idol #2 Sorter",
+      "description": "Party rank sorter for male idol non-anime songs #2.",
+      "tags": [
+        "Nominations"
+      ],
+      "deadline": "2026-10-10T04:00:00.000Z"
+    },
+    {
       "slug": "mamoru-miyano",
       "title": "Mamoru Miyano Sorter",
       "description": "Party rank sorter for Mamoru Miyano anime songs.",
