@@ -2,7 +2,7 @@ import type { AppConfig } from "../src/app/types";
 
 export const config = {
   localStoragePrefix: "nano-sorter",
-  title: "nano Sorter",
+  title: "nano",
   description: "Party rank sorter for nano anime and game songs.",
   // Tags group this sorter under one or more headers on the collection homepage.
   tags: ["Artist"],
