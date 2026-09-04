@@ -1,6 +1,15 @@
 {
   "sorters": [
     {
+      "slug": "jrpg",
+      "title": "JRPG Sorter",
+      "description": "Party rank sorter for JRPG songs.",
+      "tags": [
+        "Nominations"
+      ],
+      "deadline": "2026-09-22T04:00:00.000Z"
+    },
+    {
       "slug": "male-idol-2",
       "title": "Male Idol #2 Sorter",
       "description": "Party rank sorter for male idol non-anime songs #2.",
