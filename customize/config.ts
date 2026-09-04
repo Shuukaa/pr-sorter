@@ -2,7 +2,7 @@ import type { AppConfig } from "../src/app/types";
 
 export const config = {
   localStoragePrefix: "mamoru-miyano-sorter",
-  title: "Mamoru Miyano Sorter",
+  title: "Mamoru Miyano",
   description: "Party rank sorter for Mamoru Miyano anime songs.",
   // Tags group this sorter under one or more headers on the collection homepage.
   tags: ["Artist"],
