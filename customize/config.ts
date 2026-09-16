@@ -1,13 +1,13 @@
 import type { AppConfig } from "../src/app/types";
 
 export const config = {
-  localStoragePrefix: "test-sorter",
-  title: "Test Sorter",
-  description: "Party rank sorter for your custom list of songs.",
+  localStoragePrefix: "masami-okui--sorter",
+  title: "Masami Okui",
+  description: "Party rank sorter for Masami Okui songs.",
   // Tags group this sorter under one or more headers on the collection homepage.
   tags: ["Example"],
   // Optional voting deadline (ISO 8601). Written into the generated sorter-index.json.
-  deadline: new Date("2026-06-05T21:59:00.000Z"),
+  deadline: new Date("2026-09-20T02:00:00.000Z"),
  // Uncomment the following lines to enable Google Sheets integration. Make sure to fill in the correct values.
    googleSheets: {
      clientId: "859512107931-vghv0ldr90a6ilc14ug3g3rk3b2eg43b.apps.googleusercontent.com",
