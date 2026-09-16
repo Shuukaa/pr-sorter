@@ -5,7 +5,7 @@ export const config = {
   title: "Masami Okui",
   description: "Party rank sorter for Masami Okui songs.",
   // Tags group this sorter under one or more headers on the collection homepage.
-  tags: ["Example"],
+  tags: ["Artist"],
   // Optional voting deadline (ISO 8601). Written into the generated sorter-index.json.
   deadline: new Date("2026-09-20T02:00:00.000Z"),
  // Uncomment the following lines to enable Google Sheets integration. Make sure to fill in the correct values.
