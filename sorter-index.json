@@ -1,6 +1,15 @@
 {
   "sorters": [
     {
+      "slug": "future-card-buddyfight",
+      "title": "Future Card Buddyfight",
+      "description": "Party rank sorter for Future Card Buddyfight anime songs.",
+      "tags": [
+        "Franchise"
+      ],
+      "deadline": "2026-10-24T04:00:00.000Z"
+    },
+    {
       "slug": "jrpg",
       "title": "JRPG",
       "description": "Party rank sorter for JRPG songs.",
