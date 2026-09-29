@@ -3,14 +3,11 @@
 import type { Song } from '../src/songs';
 
 export const songList = [
-             {"id": 1, "anime": "Boukyaku Battery - OP", "name": "\"Lilac\" by Mrs. GREEN APPLE", "video": "https://naedist.animemusicquiz.com/avs1ob.webm", "mp3": "https://www.youtube.com/watch?v=DO_aopUeFnw"},
-    {"id": 2, "anime": "Enen no Shouboutai - OP1", "name": "\"Inferno\" by Mrs. GREEN APPLE", "video": "https://naedist.animemusicquiz.com/uazvg3.webm", "mp3": "https://www.youtube.com/watch?v=wNjvuRZtQeI"},
-    {"id": 3, "anime": "Kusuriya no Hitorigoto 2nd Season - OP2", "name": "\"Kusushiki\" by Mrs. GREEN APPLE", "video": "https://naedist.animemusicquiz.com/070r4c.webm", "mp3": "https://www.youtube.com/watch?v=0Po9x1n0aQE"},
-    {"id": 4, "anime": "Nana Maru San Batsu - OP", "name": "\"On My MiND\" by Mrs. GREEN APPLE", "video": "https://naedist.animemusicquiz.com/o37uye.webm", "mp3": "https://www.youtube.com/watch?v=jAD_y535Jog"},
-    {"id": 5, "anime": "One Piece Film: Red - IN", "name": "\"Watashi wa Saikyou\" by Ado", "video": "https://nawdist.animemusicquiz.com/nq2ben.webm", "mp3": "https://www.youtube.com/watch?v=sk1Z-Hqwwog"},
-    {"id": 6, "anime": "Puniru wa Kawaii Slime 2nd Season - ED", "name": "\"Ao to Natsu\" by Yu Sasahara", "video": "https://naedist.animemusicquiz.com/msclk0ux00ph2y55.webm", "mp3": "https://www.youtube.com/watch?v=OZOTSsmHEzQ"},
-    {"id": 7, "anime": "Sousou no Frieren 2nd Season - OP", "name": "\"lulu.\" by Mrs. GREEN APPLE", "video": "https://naedist.animemusicquiz.com/sqy8ycjr34b4b8f4.webm", "mp3": "https://www.youtube.com/watch?v=4REuyY89tfw"},
-    {"id": 8, "anime": "Tensei shitara Slime Datta Ken 3rd Season - OP2", "name": "\"Renacer Serenade\" by Momoiro Clover Z", "video": "https://naedist.animemusicquiz.com/iqoq8w.webm", "mp3": "https://www.youtube.com/watch?v=0d2rhw8kZso"},
-    {"id": 9, "anime": "World Trigger 2nd Season - OP", "name": "\"Force\" by TOMORROW X TOGETHER", "video": "https://naedist.animemusicquiz.com/v0arh8.webm", "mp3": "https://www.youtube.com/watch?v=KCEohrmozm0"},
-    {"id": 10, "anime": "Yu-Gi-Oh! Arc-V - ED4", "name": "\"Speaking\" by Mrs. GREEN APPLE", "video": "https://naedist.animemusicquiz.com/yu2ri1.webm", "mp3": "https://www.youtube.com/watch?v=ESgqymcTKzU"},
+	{"id": 1, "anime": "86 Eighty-Six - OP", "name": "\"3-pun 29-byou\" by HITORIE", "video": "https://naedist.animemusicquiz.com/scl8va.webm", "mp3": "https://www.youtube.com/watch?v=8lgTi7tqX3k"},
+    {"id": 2, "anime": "Boruto: Naruto Next Generations - ED7", "name": "\"Polaris\" by HITORIE", "video": "https://naedist.animemusicquiz.com/0i3w6y.webm", "mp3": "https://www.youtube.com/watch?v=t8rjUuz8Ms0"},
+    {"id": 3, "anime": "Dance Dance Danseur - ED", "name": "\"Kaze, Hana\" by HITORIE", "video": "https://naedist.animemusicquiz.com/igggqu.webm", "mp3": "https://www.youtube.com/watch?v=ofEDgdkURfY"},
+    {"id": 4, "anime": "Divine Gate - OP", "name": "\"One Me Two Hearts\" by HITORIE", "video": "https://naedist.animemusicquiz.com/q8rhk6.webm", "mp3": "https://www.youtube.com/watch?v=v76UQzws0hE"},
+    {"id": 5, "anime": "Mushoku Tensei II: Isekai Ittara Honki Dasu 2nd Season - OP", "name": "\"On the Frontline\" by HITORIE", "video": "https://naedist.animemusicquiz.com/acaih5.webm", "mp3": "https://www.youtube.com/watch?v=xBwmPob9flU"},
+    {"id": 6, "anime": "Mushoku Tensei III: Isekai Ittara Honki Dasu - ED", "name": "\"Inori, Owareba\" by Mika Nakashima", "video": "https://naedist.animemusicquiz.com/9hol5w.webm", "mp3": "https://www.youtube.com/watch?v=23rHevTW288"},
+    {"id": 7, "anime": "Thunder 3 - ED", "name": "\"Surrealila\" by otoha", "video": "https://naedist.animemusicquiz.com/n5q4t6.webm", "mp3": "https://www.youtube.com/watch?v=GnEgPPerpFc"},
 ] satisfies Song[];
