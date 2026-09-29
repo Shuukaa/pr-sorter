@@ -10,6 +10,15 @@
       "deadline": "2026-10-24T04:00:00.000Z"
     },
     {
+      "slug": "hitorie",
+      "title": "HITORIE",
+      "description": "Party rank sorter for HITORIE anime songs.",
+      "tags": [
+        "Artist"
+      ],
+      "deadline": "2026-10-17T04:00:00.000Z"
+    },
+    {
       "slug": "jrpg",
       "title": "JRPG",
       "description": "Party rank sorter for JRPG songs.",
