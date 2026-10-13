@@ -1,6 +1,15 @@
 {
   "sorters": [
     {
+      "slug": "all-time-favorites-set-3",
+      "title": "All Time Favorites [Set 3]",
+      "description": "Party rank sorter for all time favorite anime songs.",
+      "tags": [
+        "Nominations"
+      ],
+      "deadline": "2026-11-07T05:00:20.000Z"
+    },
+    {
       "slug": "future-card-buddyfight",
       "title": "Future Card Buddyfight",
       "description": "Party rank sorter for Future Card Buddyfight anime songs.",
